@@ -43,6 +43,10 @@
             </div>
           </div>
         </div>
+        <div class="row" style="text-align: left; padding-left: 45%;">
+          <p style="font-size: 13px;">Don't have an account?</p> &nbsp;
+          <a href="user_signup.php" style="font-size: 13px;">Sign Up</a>
+        </div>
         <div class="row">
           <div class="col-8">
           </div>

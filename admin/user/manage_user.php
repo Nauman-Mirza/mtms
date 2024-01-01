@@ -38,6 +38,10 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
                     <?php endif; ?>
 				</div>
 				<div class="form-group col-6">
+					<label for="number">Mobile Number</label>
+					<input type="text" name="number" id="number" class="form-control" value="<?php echo isset($meta['username']) ? $meta['username']: '' ?>" required  autocomplete="off">
+				</div>
+				<div class="form-group col-6">
 					<label for="type">Login Type</label>
 					<select name="type" id="type" class="custom-select">
 						<option value="1" <?php echo isset($meta['type']) && $meta['type'] == 1 ? 'selected' : '' ?>>Administrator</option>
