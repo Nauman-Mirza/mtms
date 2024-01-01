@@ -37,10 +37,10 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 					<small class="text-info"><i>Leave this blank if you dont want to change the password.</i></small>
                     <?php endif; ?>
 				</div>
-				<!-- <div class="form-group col-6">
+				<div class="form-group col-6">
 					<label for="number">Mobile Number</label>
 					<input type="text" name="number" id="number" class="form-control" value="<?php echo isset($meta['phone_number']) ? $meta['phone_number']: '' ?>" required  autocomplete="off">
-				</div> -->
+				</div>
 				<div class="form-group col-6">
 					<label for="type">Login Type</label>
 					<select name="type" id="type" class="custom-select">
